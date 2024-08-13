@@ -12,8 +12,11 @@ const Header = async ({ username }) => {
             Clerk App
           </div>
         </Link>
-        <Link href="/dashboard">
+        {/* <Link href="/dashboard">
           <div className="text-lg font-bold text-white">Members</div>
+        </Link> */}
+        <Link href="/clients">
+          <div className="text-lg font-bold text-white">Clients</div>
         </Link>
         <Link href="/organization">
           <div className="text-lg font-bold text-white">Organization</div>
