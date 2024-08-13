@@ -21,6 +21,9 @@ const Header = async ({ username }) => {
         <Link href="/organization">
           <div className="text-lg font-bold text-white">Organization</div>
         </Link>
+        <Link href="/assignments">
+          <div className="text-lg font-bold text-white">Assignment</div>
+        </Link>
       </div>
       <div className="flex items-center text-white">
         {!userId && (

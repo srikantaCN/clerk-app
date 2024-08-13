@@ -31,8 +31,8 @@ export default function RootLayout({ children }) {
           </SignedIn>
           <SignedOut>Please Sign In</SignedOut> */}
           <main className="container mx-auto">
-            <div className="flex items-start justify-center min-h-screen">
-              <div className="mt-20">{children}</div>
+            <div className="flex items-start  min-h-screen min-w-screen">
+              <div className="mt-5">{children}</div>
             </div>
           </main>
         </body>
